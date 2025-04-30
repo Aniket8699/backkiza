@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout Repository') {
             steps {
                 echo 'Cloning the GitHub repository...'
-                git branch: 'main', url: https://github.com/Aniket8699/backkiza
+                git branch: 'main', url: 'https://github.com/Aniket8699/backkiza.git'
             }
         }
 
